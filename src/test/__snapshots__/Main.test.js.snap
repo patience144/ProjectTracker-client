@@ -1,0 +1,288 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main Section The Errors render the UI as expected 1`] = `
+<div
+  className="error"
+>
+  <h3>
+    ERROR
+  </h3>
+  <p>
+    
+  </p>
+</div>
+`;
+
+exports[`Main Section The Home Page render the UI as expected 1`] = `
+<div
+  className="home"
+>
+  <div
+    className="home-primary"
+  >
+    <img
+      alt="background"
+      src="background2.png"
+    />
+    <h2>
+      Welcome to DevMap!
+    </h2>
+    <p>
+      A stopping point for developers to keep keep track of their projects and bugs.
+    </p>
+    <p>
+      Establish a phase and status for each project and issue, so you can be thorough on every project's health!
+    </p>
+    <a
+      href="/projects"
+      onClick={[Function]}
+    >
+      Projects
+    </a>
+  </div>
+  <div
+    className="home-secondary"
+  >
+    <p>
+      It's easy:
+    </p>
+    <ul>
+      <li>
+        Sign-Up.
+      </li>
+      <li>
+        Create a project.
+      </li>
+      <li>
+        Establish your issues.
+      </li>
+      <li>
+        Share away!
+      </li>
+    </ul>
+    <p>
+      <i>
+        (Next up: Implementing collaborators and teams!)
+      </i>
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Main Section The Items The Issue Page renders the UI as expected 1`] = `
+<form
+  className="issue-page"
+>
+  <h3>
+    New Issue
+  </h3>
+  <label>
+    Project: 
+  </label>
+  <label>
+    Name: 
+  </label>
+  <label>
+    Description: 
+  </label>
+  <label>
+    Owner: 
+  </label>
+  <label>
+    Languages/Tools: 
+  </label>
+  <label>
+    Phase: 
+  </label>
+  <label>
+    Status: 
+  </label>
+  <label>
+    Start Date: 
+    lid Date
+  </label>
+  <label>
+    Collaboration: 
+  </label>
+  <label>
+    GitHub: 
+  </label>
+  <div
+    className="issue-buttons"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Back
+    </button>
+  </div>
+</form>
+`;
+
+exports[`Main Section The Items The Item component render the UI as expected 1`] = `
+<a
+  className="item"
+  href="/projects/undefined"
+  onClick={[Function]}
+>
+  <div
+    className="item-main"
+  >
+    <label />
+    <p />
+    <div
+      className="item-health"
+    >
+      <label />
+      <label />
+    </div>
+  </div>
+  <div
+    className="item-tags"
+  >
+    <label />
+  </div>
+</a>
+`;
+
+exports[`Main Section The Items The Project Page renders the UI as expected 1`] = `
+<form
+  className="project-page"
+>
+  <h3>
+    New Project
+  </h3>
+  <label>
+    Name: 
+  </label>
+  <label>
+    Description: 
+  </label>
+  <label>
+    Languages/Tools: 
+  </label>
+  <label>
+    Phase: 
+  </label>
+  <label>
+    Status: 
+  </label>
+  <label>
+    Start Date: 
+    lid Date
+  </label>
+  <label>
+    Owner: 
+  </label>
+  <label>
+    Collaboration: 
+  </label>
+  <label>
+    GitHub: 
+  </label>
+  <div
+    className="project-buttons"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Back
+    </button>
+  </div>
+</form>
+`;
+
+exports[`Main Section The List renders the UI as expected 1`] = `
+Array [
+  <h3>
+    All Projects
+  </h3>,
+  <a
+    className="create"
+    href="/new-project"
+    onClick={[Function]}
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    New Project
+  </a>,
+  <div
+    className="item-list"
+  />,
+]
+`;
+
+exports[`Main Section The Menu render the UI as expected 1`] = `
+<div
+  className="header-options"
+>
+  <div
+    className="buttons"
+  >
+    <a
+      href="/signup"
+      onClick={[Function]}
+    >
+      Sign-Up
+    </a>
+    <a
+      href="/login"
+      onClick={[Function]}
+    >
+      Login
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Main Section The Users render the UI as expected 1`] = `
+<form
+  className="user-page"
+>
+  <h3>
+    Profile
+  </h3>
+  <label>
+    Username: 
+  </label>
+  <label>
+    First Name: 
+  </label>
+  <label>
+    Last Name: 
+  </label>
+  <label>
+    E-mail: 
+  </label>
+  <label>
+    Tools: 
+  </label>
+  <label>
+    Start Date: 
+  </label>
+  <label>
+    GitHub: 
+  </label>
+  <div
+    className="issue-buttons"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Edit
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Back
+    </button>
+  </div>
+</form>
+`;

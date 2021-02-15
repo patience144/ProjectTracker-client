@@ -1,0 +1,67 @@
+.issue-edit {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  color: white;
+}
+
+.issue-edit h3 {
+  text-align: center;
+  margin-top: 15%;
+}
+
+.issue-edit label {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  display: flex;
+  margin-top: 25px;
+  width: 100%;
+}
+
+.issue-edit input {
+  min-width: 50%;
+}
+
+.issue-edit .issue-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.issue-buttons button,
+.issue-edit button {
+  background-color: rgba(163, 22, 219, 0.925);
+  border: none;
+  min-width: 100px;
+  outline: none;
+  font-family: "Dancing Script", cursive;
+  font-weight: bolder;
+  font-size: 20px;
+  color: rgb(95, 0, 95);
+  border-radius: 3px;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.issue-edit button:hover {
+  background-color: rgba(238, 56, 245, 0.699);
+  border-color: rgba(238, 56, 245, 0.699);
+}
+
+.issue-buttons button:active,
+.issue-edit button:active {
+  transform: scale(0.92);
+}
+
+.issue-edit button {
+  margin-top: 25px;
+}
+
+@media all and (max-width: 400px) {
+  .issue-buttons button {
+    margin: 10px 10px;
+  }
+}

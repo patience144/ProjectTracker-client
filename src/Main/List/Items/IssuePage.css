@@ -1,0 +1,71 @@
+.issue-page {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  color: white;
+}
+
+.issue-page h3 {
+  text-align: center;
+  margin-top: 15%;
+}
+
+.issue-page label {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  display: flex;
+  margin-top: 25px;
+  width: 100%;
+}
+
+.issue-page input {
+  min-width: 50%;
+}
+
+.issue-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.issue-buttons button,
+.issue-page button {
+  background-color: rgba(163, 22, 219, 0.925);
+  border: none;
+  min-width: 100px;
+  height: 1.8em;
+  outline: none;
+  font-family: "Dancing Script", cursive;
+  font-weight: bolder;
+  font-size: 20px;
+  color: rgb(95, 0, 95);
+  border-radius: 3px;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.issue-page button:hover {
+  background-color: rgba(238, 56, 245, 0.699);
+  border-color: rgba(238, 56, 245, 0.699);
+}
+
+.issue-buttons button:active,
+.issue-page button:active {
+  transform: scale(0.92);
+}
+
+.issue-page button {
+  margin-top: 25px;
+}
+
+@media all and (max-width: 400px) {
+  .issue-page {
+    width: 75%;
+  }
+
+  .issue-buttons button {
+    margin: 0 10px;
+  }
+}

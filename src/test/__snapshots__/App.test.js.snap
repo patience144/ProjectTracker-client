@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The App Snapshot Test renders the UI as expected 1`] = `
+Array [
+  <header>
+    <a
+      className="logo"
+      href="/"
+      onClick={[Function]}
+    >
+      <h1>
+        #DevMap
+      </h1>
+    </a>
+    <div
+      className="header-options"
+    >
+      <div
+        className="buttons"
+      >
+        <a
+          href="/signup"
+          onClick={[Function]}
+        >
+          Sign-Up
+        </a>
+        <a
+          href="/login"
+          onClick={[Function]}
+        >
+          Login
+        </a>
+      </div>
+    </div>
+  </header>,
+  <div
+    className="loading"
+  >
+    <h3>
+      Loading...
+    </h3>
+    <div
+      className="loader"
+    />
+  </div>,
+]
+`;

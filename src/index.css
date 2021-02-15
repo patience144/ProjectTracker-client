@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: "Dancing Script", cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 'Segoe UI', "Roboto", */
+
+code {
+  font-family: "Dancing Script", cursive;
+}

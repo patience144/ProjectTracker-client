@@ -16,7 +16,7 @@ class ProjectPage extends React.Component {
   render() {
     const token = window.sessionStorage.getItem('authToken');
     const admin = token === API_KEY;
-    const username = (token && !admin) ? jwt_decode(token).sub : 'dionisggr';
+    const username = (token && !admin) ? jwt_decode(token).sub : 'admin';
     const projectID = this.props.match.params.projectID;
     let project = (this.props.projects)
         ? this.props.projects.find(project => project.id === this.props.match.params.projectID)

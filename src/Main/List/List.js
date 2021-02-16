@@ -16,7 +16,7 @@ class List extends React.Component {
   render() {
     const token = window.sessionStorage.getItem('authToken');
     const admin = (token) ? token === API_KEY : false; 
-    const username = (token && !admin) ? jwt_decode(token).sub : 'dionisggr';
+    const username = (token && !admin) ? jwt_decode(token).sub : 'admin';
     const projectID = this.props.match.params.projectID;
     const listTitle = (projectID) ? 'Project Issues' : 'All Projects';
     const items = 

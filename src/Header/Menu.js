@@ -15,7 +15,7 @@ class Menu extends React.Component {
     const token = window.sessionStorage.getItem("authToken");
     const id = this.context ? this.context.id : null;
     let username = token ? this.context.username : null;
-    const admin = username === "dionisggr";
+    const admin = username === "admin";
     if (!username && token && token !== API_KEY)
       username = jwt_decode(token).sub;
     return (
@@ -27,7 +27,7 @@ class Menu extends React.Component {
           <li><Link to="/login">Login</Link></li>
           <li>
             <a
-              href="https://github.com/dionisggr/devmap"
+              href="https://github.com/patience144/projecttracker"
               target="_blank"
               rel="noreferrer"
             >
@@ -64,7 +64,7 @@ class Menu extends React.Component {
             }
             <li>
               <a
-                href="https://github.com/dionisggr/devmap"
+                href="https://github.com/patience144/projecttracker"
                 target="_blank"
                 rel="noreferrer"
               >

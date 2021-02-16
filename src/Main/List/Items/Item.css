@@ -6,11 +6,11 @@
   margin: 5px 0;
   padding: 25px;
   border: solid;
-  border-color: rgb(255, 231, 255);
+  border-color: rgb(168, 104, 168);
   border-width: 0.1px;
   border-radius: 4px;
-  color: white;
-  background-color: rgba(46, 45, 45, 0.699);
+  color: black;
+  background-color: rgba(190, 147, 189, 0.699);
   font-size: 18px;
   text-decoration: none;
 }

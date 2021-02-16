@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   width: 40%;
-  color: white;
+  color: black;
 }
 
 .issue-page h3 {
@@ -37,7 +37,7 @@
   min-width: 100px;
   height: 1.8em;
   outline: none;
-  font-family: "Dancing Script", cursive;
+  font-family: "Cormorant Garamond", serif;
   font-weight: bolder;
   font-size: 20px;
   color: rgb(95, 0, 95);

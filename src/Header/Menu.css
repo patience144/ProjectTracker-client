@@ -11,11 +11,11 @@
 
 .header-options a,
 .header-options a {
-  color: white;
+  color: black;
   text-decoration: none;
   font-size: 25px;
   font-weight: bold;
-  font-family: "Dancing Script", cursive;
+  font-family: "Cormorant Garamond", serif;
 }
 
 .header-options a {
@@ -48,7 +48,7 @@
   margin-bottom: 50px;
   margin-left: 25px;
   border: solid;
-  color: white;
+  color: black;
 }
 
 #users-button,

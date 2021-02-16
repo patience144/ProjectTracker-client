@@ -159,7 +159,7 @@ class App extends React.Component {
         newState.issues = issues;
         if (token) {
           if (token === API_KEY) {
-            newState.user.username = 'dionisggr'
+            newState.user.username = 'admin'
           } else {
             newState.user.username = jwt_decode(token).sub
           }

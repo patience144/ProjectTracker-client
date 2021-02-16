@@ -93,7 +93,7 @@ class ProjectPage extends React.Component {
     const token = window.sessionStorage.getItem('authToken');
     if (!token) this.props.history.push('/signup') // Redirect to Signup if not logged in.
     const admin = token === API_KEY;
-    const username = (token && !admin) ? jwt_decode(token).sub : 'dionisggr';
+    const username = (token && !admin) ? jwt_decode(token).sub : 'admin';
     const projectID = this.props.match.params.projectID;
     let project = this.props.projects.find(project => project.id === projectID) || {};
     return (

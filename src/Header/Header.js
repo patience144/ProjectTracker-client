@@ -9,7 +9,7 @@ class Header extends React.Component {
     const link = (token) ? '/projects' : '/';
     return (
       <header>
-        <Link to={link} className='logo'><h1>#ProjectTracker</h1></Link>
+        <Link to={link} className='logo'><h1>ProjectTracker</h1></Link>
         <Menu />
       </header>
     );

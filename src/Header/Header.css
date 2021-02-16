@@ -8,7 +8,7 @@ header {
   padding: 0 40px 0 10px;
   max-height: 125px;
   z-index: 1;
-  color: white;
+  color: black;
   background-color: #c8529b;
   border-bottom: solid;
   border-width: 0.25px;
@@ -16,17 +16,17 @@ header {
 }
 
 h1 {
-  color: white;
+  color: black;
   text-decoration: none;
   font-size: 40px;
-  font-family: "Dancing Script", cursive;
+  font-family: "Cormorant Garamond", serif;
   margin-bottom: 25px;
   text-decoration: underline;
   text-decoration-color: rgb(95, 0, 95);
 }
 
 h4 {
-  color: white;
+  color: black;
   margin: 0;
   margin-top: 25px;
   font-size: 1.5vh;
@@ -38,7 +38,7 @@ h4 {
   align-items: center;
   background-color: rgb(104, 104, 104);
   height: 75px;
-  color: white;
+  color: black;
   width: 100%;
   font-size: 2vh;
 }
@@ -65,7 +65,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 nav ul {

@@ -8,7 +8,7 @@ main {
 }
 
 h2 {
-  color: white;
+  color: black;
   z-index: 1;
 }
 
@@ -19,7 +19,7 @@ h2 {
 }
 
 ul {
-  color: white;
+  color: black;
   z-index: 1;
 }
 
@@ -41,11 +41,11 @@ img {
 }
 
 .home a {
-  background-color: rgba(163, 22, 219, 0.925);
+  background-color: rgba(138, 30, 180, 0.925);
   text-decoration: none;
   font-weight: bold;
   font-size: 18px;
-  color: rgb(46, 30, 75);
+  color: rgb(51, 10, 70);
   align-self: center;
   border: solid;
   border-color: rgb(121, 22, 151);
@@ -58,7 +58,7 @@ img {
 }
 
 .home a:hover {
-  background-color: rgba(238, 56, 245, 0.699);
+  background-color: rgba(239, 113, 243, 0.699);
 }
 
 .home:active a {

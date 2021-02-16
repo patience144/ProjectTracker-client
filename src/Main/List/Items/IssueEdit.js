@@ -22,7 +22,7 @@ class IssueEdit extends React.Component {
     const admin = (token) ? token === API_KEY : false;
     const issueID = this.props.match.params.issueID;
     const issue = this.props.state.issues.find(issue => issue.id === issueID);
-    const username = (token && !admin) ? jwt_decode(token).sub : 'dionisggr';
+    const username = (token && !admin) ? jwt_decode(token).sub : 'admin';
     const projectID = this.props.match.params.projectID;
     const ownerID = this.props.state.projects.find(project => project.id === projectID).owner_id;
     const startDate =
@@ -105,7 +105,7 @@ class IssueEdit extends React.Component {
   render() {
     const token = window.sessionStorage.getItem('authToken');
     const admin = token === API_KEY;
-    const username = (token && !admin) ? jwt_decode(token).sub : 'dionisggr';
+    const username = (token && !admin) ? jwt_decode(token).sub : 'admin';
     const issueID = this.props.match.params.issueID;
     let issue = (issueID)
       ? this.props.state.issues.find(issue => issue.id === issueID)

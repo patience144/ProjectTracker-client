@@ -9,11 +9,11 @@ class Home extends React.Component {
       <div className='home'>
         <div className='home-primary'>
           <img src={background} alt='background' />
-          <h2>Welcome to DevMap!</h2>
+          <h2>Welcome to ProjectTracker!</h2>
           <p>A stopping point for developers to keep keep track of their projects and bugs.</p>
           <p>Establish a phase and status for each project and issue, so you can be thorough on every project's health!</p>
           <Link to='projects'>Projects</Link>
-          <a href='https://github.com/dionisggr/devmap'>GitHub</a>href       </div>
+          <a href='https://github.com/patience144/projecttracker-client'>GitHub</a></div>
         <div className='home-secondary'>
           <p>It's easy:</p>
           <ul>

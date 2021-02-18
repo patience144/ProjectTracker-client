@@ -64,6 +64,10 @@ header h1 {
   font-size: 4vh;
 }
 
+header h4 {
+  font-size: 2vh;
+}
+
 @media all and (max-width: 400px) {
   .header-options {
     align-self: flex-end;
@@ -83,6 +87,6 @@ header h1 {
   }
 
   .header-options h4 {
-    font-size: 1.8vh;
+    font-size: 5.8vh;
   }
 }

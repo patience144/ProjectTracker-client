@@ -72,7 +72,7 @@ class Menu extends React.Component {
               </a>
             </li>
             {
-              (!token)
+              (token)
                 ? null
                 : <li>
                     <Link

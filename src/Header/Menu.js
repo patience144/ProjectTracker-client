@@ -27,7 +27,7 @@ class Menu extends React.Component {
           <li><Link to="/login">Login</Link></li>
           <li>
             <a
-              href="https://github.com/patience144/projecttracker"
+              href="https://github.com/patience144/projecttracker-client"
               target="_blank"
               rel="noreferrer"
             >

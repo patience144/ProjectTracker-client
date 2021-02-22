@@ -6,7 +6,7 @@ _(In dire need of a CSS upgrade)_
 
 ### Live:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; https://projecttracker.vercel.app/
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; https://projecttracker-client.vercel.app/
 
 ### API:
 

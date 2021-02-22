@@ -63,7 +63,7 @@ class Login extends React.Component {
           <button type='submit'>Login</button>
           <button
             type='button'
-            onClick={() => this.props.history.push('/')}
+            onClick={() => this.props.history.push('/projects')}
           >Cancel</button>
         </div>
       </form>
@@ -72,7 +72,7 @@ class Login extends React.Component {
 
   componentDidMount() {
     const token = window.sessionStorage.getItem('authToken');
-    if (token) this.props.history.push('/'); // Turn to HomePage if already logged in.
+    if (token) this.props.history.push('/projects'); // Turn to HomePage if already logged in.
   };
 };
 

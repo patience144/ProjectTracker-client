@@ -55,7 +55,7 @@ class ProjectPage extends React.Component {
           delete project.start_date;
           projects.push(project);
           this.props.updateProjects(projects);
-          this.props.history.push('/');
+          this.props.history.push('/projects');
         })
         .catch(error => console.log({error}));
     } else {
@@ -70,7 +70,7 @@ class ProjectPage extends React.Component {
             return project;
           });
           this.props.updateProjects(projects);
-          this.props.history.push('/');
+          this.props.history.push('/projects');
         })
         .catch(error => console.log({error}));
     };
@@ -84,7 +84,7 @@ class ProjectPage extends React.Component {
         let projects = [...this.props.projects];
         projects = projects.filter(project => project.id !== this.props.match.params.projectID);
         this.props.updateProjects(projects);
-        this.props.history.push('/');
+        this.props.history.push('/projects');
       })
       .catch(error => console.log({error}));
   };

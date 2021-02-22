@@ -95,7 +95,7 @@ class Signup extends React.Component {
           <button type='submit'>Sign-Up</button>
           <button
             type='button'
-            onClick={() => this.props.history.push('/')}
+            onClick={() => this.props.history.push('/projects')}
           >
             Cancel
           </button>

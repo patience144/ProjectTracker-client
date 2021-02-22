@@ -108,7 +108,7 @@ function getUsernames() {
 
 function getUsers() {
   const token = window.sessionStorage.getItem('authToken');
-  if (!token) Promise.reject(new Error('missing authorization'));
+  // if (!token) Promise.reject(new Error('missing authorization'));
   return fetch(`${baseURL}/api/users`, {
     headers: {
       'Content-Type': 'application/json',

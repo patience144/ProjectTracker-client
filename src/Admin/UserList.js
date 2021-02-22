@@ -17,7 +17,7 @@ class UserList extends React.Component {
             })
           }
         </div>
-        <button onClick={() => this.props.history.push('/')}>Home</button>
+        <button onClick={() => this.props.history.push('/projects')}>Home</button>
       </>
     );
   };

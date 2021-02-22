@@ -16,6 +16,44 @@ class Menu extends React.Component {
     const id = this.context ? this.context.id : null;
     let username = token ? this.context.username : null;
     const admin = username === "admin";
+
+    const showButtons = (token)
+      ? (admin)
+        ? <>
+            <li><Link id="users-button" to={`/users`}>Users</Link></li>
+            <li>
+              <Link
+                to="/logout"
+                id="logout-button"
+                onClick={() => {
+                  window.sessionStorage.removeItem("authToken");
+                  this.props.history.push("/");
+                }}
+              >
+                Log Out
+              </Link>
+            </li>
+          </>
+        : <>
+            <li><Link id="account-button" to={`/users/${id}`}>Account</Link></li>
+            <li>
+              <Link
+                to="/logout"
+                id="logout-button"
+                onClick={() => {
+                  window.sessionStorage.removeItem("authToken");
+                  this.props.history.push("/");
+                }}
+              >
+                Log Out
+              </Link>
+            </li>
+          </>
+      : <>
+          <li><Link to="/signup">Sign-Up</Link></li>
+          <li><Link to="/login">Login</Link></li>
+        </>
+
     if (!username && token && token !== API_KEY)
       username = jwt_decode(token).sub;
     return (
@@ -23,8 +61,7 @@ class Menu extends React.Component {
       {(username) ? <h4>Welcome, {username}.</h4> : null}
       <nav className={menu ? "faded" : ""}>
         <ul>
-          <li><Link to="/signup">Sign-Up</Link></li>
-          <li><Link to="/login">Login</Link></li>
+          {showButtons}
           <li>
             <a
               href="https://github.com/patience144/projecttracker-client"
@@ -59,7 +96,7 @@ class Menu extends React.Component {
               ) : (
                 admin
                   ? <li><Link id="users-button" to={`/users`}>Users</Link></li>
-                  : <li><Link id="account-button" to={`/users/${id}`}>Accounts</Link></li>
+                  : <li><Link id="account-button" to={`/users/${id}`}>Account</Link></li>
               )
             }
             <li>
